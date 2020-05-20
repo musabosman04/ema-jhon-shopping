@@ -1,0 +1,14 @@
+.shop-container{
+    display: flex;
+}
+.shop-container .left{
+    width: 10%;
+}
+.shop-container .center{
+    width: 70%;
+    padding: 20px;
+    border-right: 1px solid lightgray;
+}
+.shop-container .right{
+    width: 20%;
+}
