@@ -11,6 +11,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import ProductDetails from './Componets/ProductDetails/ProductDetails';
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
             </Route>
             <Route path="/manage">
               <Manage></Manage>
+            </Route>
+            <Route path="/product/:productKey">
+              <ProductDetails></ProductDetails>
             </Route>
             <Route exact path="/">
               <Shop></Shop>
